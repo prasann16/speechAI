@@ -196,13 +196,19 @@ class ViewController: UIViewController {
                 }
                 print(self.missList)
                 self.missView.text = missText
+                self.missView.textColor = UIColor.red
                 
 //                var highlightText: String = ""
+//                self.textView.text=""
 //                for i in 0..<self.saidList.count{
+//                    
 //                    if(self.missList.contains(self.saidList[i])){
-////                        highlightText+=
+//                        var miss: String = self.saidList[i]+" "
+//                    }else{
+//                        
 //                    }
 //                }
+//                print(highlightText)
 //                print(self.finalList)
             }
         }
